@@ -4,7 +4,7 @@ require("@nomicfoundation/hardhat-toolbox");
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-const ALCHEMY_API_KEY = ""
+const INFURA_API_KEY = ""
 const MAINNET_PRIVATE_KEY = "";
 const ETHERSCAN_API_KEY = "";
 /**
@@ -19,7 +19,7 @@ module.exports = {
   },
   networks: {
     mainnet: {
-      url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+      url: `https://mainnet.infura.io/v3/${INFURA_API_KEY}`,
       accounts: [`${MAINNET_PRIVATE_KEY}`]
     },
     bsc: {

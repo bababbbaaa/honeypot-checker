@@ -9,7 +9,7 @@ const hre = require("hardhat");
 
 async function main() {
   const HoneyChecker = await hre.ethers.getContractFactory(
-    "honeyCheckerV5"
+    "honeyCheckerV5_bsc"
   );
   const honeyChecker = await HoneyChecker.deploy();
   await honeyChecker.deployed();

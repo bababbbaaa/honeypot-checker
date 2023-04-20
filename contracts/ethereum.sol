@@ -116,7 +116,7 @@ interface IDEXRouter {
         returns (uint256[] memory amounts);
 }
 
-contract honeyCheckerV5 {
+contract honeyCheckerV5_eth {
     IDEXRouter public router;
     uint256 approveInfinity = 115792089237316195423570985008687907853269984665640564039457584007913129639935;
 
